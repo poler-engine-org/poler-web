@@ -6,6 +6,7 @@ import { Experiment } from "@/components/poler/experiment";
 import { Comparison } from "@/components/poler/comparison";
 import { Triune } from "@/components/poler/triune";
 import { JitDemo } from "@/components/poler/jit-demo";
+import { IngestDemo } from "@/components/poler/ingest-demo";
 import { Benchmarks } from "@/components/poler/benchmarks";
 import { Footer } from "@/components/poler/footer";
 
@@ -19,6 +20,7 @@ export default function Home() {
         <Comparison />
         <Triune />
         <JitDemo />
+        <IngestDemo />
         <Benchmarks />
       </main>
       <footer className="mt-auto">
